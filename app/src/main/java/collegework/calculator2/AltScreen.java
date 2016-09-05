@@ -12,7 +12,7 @@ public class AltScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alt_screen);
     }
-    public void switchMode(View v)
+    public void switchMode(View view)
     {
         Intent intent=new Intent(this,startCalc.class);
         startActivity(intent);
