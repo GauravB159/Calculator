@@ -24,71 +24,76 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/_4"
-            android:id="@+id/_4"
+            android:text="@string/log"
+            android:id="@+id/log"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/_5"
-            android:id="@+id/_5"
+            android:text="@string/ln"
+            android:id="@+id/ln"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/_6"
-            android:id="@+id/_6"
+            android:text="@string/root"
+            android:id="@+id/root"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/multiply"
+            android:text="@string/nroot"
             android:id="@+id/multiply"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/power"
+            android:text="@string/ncr"
             android:id="@+id/power"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
     <LinearLayout
@@ -106,30 +111,25 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/_1"
+            android:text="@string/npr"
             android:id="@+id/_1"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
-        <Button
-            android:layout_width="wrap_content"
+        <ImageButton
+            android:layout_width="76dp"
             android:layout_height="match_parent"
-            android:text="@string/_2"
-            android:id="@+id/_2"
-            android:padding="0dp"
-            android:layout_weight="1"
-            android:textSize="40sp"
+            android:id="@+id/imageButton"
             android:layout_marginLeft="-6dp"
-            android:clickable="true"
-            android:enabled="true"
-            android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:src="@drawable/integ"
+            android:contentDescription="@string/definiteintegral" />
 
         <Button
             android:layout_width="wrap_content"
@@ -143,7 +143,8 @@
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -157,7 +158,8 @@
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -170,7 +172,8 @@
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
     <LinearLayout
@@ -188,71 +191,76 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/_7"
-            android:id="@+id/_7"
+            android:text="@string/sini"
+            android:id="@+id/sini"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/_8"
-            android:id="@+id/_8"
+            android:text="@string/cosi"
+            android:id="@+id/cosi"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/_9"
-            android:id="@+id/_9"
+            android:text="@string/tani"
+            android:id="@+id/tani"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/divide"
-            android:id="@+id/divide"
+            android:text="@string/square"
+            android:id="@+id/square"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/modulus"
-            android:id="@+id/modulus"
+            android:text="@string/raised"
+            android:id="@+id/raised"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
     <LinearLayout
@@ -279,7 +287,8 @@
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -293,7 +302,8 @@
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -307,7 +317,8 @@
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -321,7 +332,8 @@
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -334,7 +346,8 @@
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
     <LinearLayout
@@ -352,30 +365,47 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/opp"
-            android:id="@+id/openP"
+            android:text="@string/sin"
+            android:id="@+id/sine"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/cpp"
-            android:id="@+id/closeP"
+            android:text="@string/cos"
+            android:id="@+id/cos"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tan"
+            android:id="@+id/tan"
+            android:padding="0dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_marginLeft="-6dp"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -390,34 +420,22 @@
             android:enabled="true"
             android:focusable="false"
             android:focusableInTouchMode="false"
-            android:onClick="switchMode"/>
+            android:textAllCaps="false"
+            android:onClick="switchMode" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/delete"
-            android:id="@+id/del"
-            android:padding="0dp"
+            android:text="@string/frac"
+            android:id="@+id/frac"
             android:layout_weight="1"
-            android:textSize="45dp"
+            android:textSize="20sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/c"
-            android:id="@+id/reset"
-            android:layout_weight="1"
-            android:textSize="40sp"
-            android:layout_marginLeft="-6dp"
-            android:clickable="true"
-            android:enabled="true"
-            android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
     <EditText
