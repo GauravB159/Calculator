@@ -89,8 +89,10 @@ public class MainActivity extends FragmentActivity {
     }
     public void onClickDel(View view){
         String str= editText1.getText().toString();
-        String result=str.substring(0,str.length()-1);
-        editText1.setText(result);
+        if(str.length()!=0) {
+            String result = str.substring(0, str.length() - 1);
+            editText1.setText(result);
+        }
     }
     double calculate(String input) {
         double result=0;
