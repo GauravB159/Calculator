@@ -8,7 +8,7 @@
     <string name="_0">0</string>
     <string name="equal">=</string>
     <string name="divide">/</string>
-    <string name="multiply">*</string>
+    <string name="multiply">x</string>
     <string name="_3">3</string>
     <string name="_1">1</string>
     <string name="_2">2</string>
@@ -44,4 +44,13 @@
     <string name="ncr">nCr</string>
     <string name="definiteintegral">definiteIntegral</string>
     <string name="npr">nPr</string>
+    <string name="left"><![CDATA[<]]></string>
+    <string name="up">^</string>
+    <string name="down">v</string>
+    <string name="right"><![CDATA[>]]></string>
+    <string name="pi">PI</string>
+    <string name="e">e</string>
+    <string name="rand">Rand#</string>
+    <string name="var">x</string>
+    <string name="pow10">x10X</string>
 </resources>
