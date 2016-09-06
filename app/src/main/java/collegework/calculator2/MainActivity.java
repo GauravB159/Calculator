@@ -1,4 +1,4 @@
-package bhaskarbarua.calc;
+package collegework.calculator2;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -18,6 +18,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Locale;
+
+import collegework.calculator2.LeftFragment;
+import collegework.calculator2.MainFragment;
+import collegework.calculator2.RightFragment;
 
 
 public class MainActivity extends FragmentActivity implements TextToSpeech.OnInitListener {
@@ -205,6 +209,7 @@ public class MainActivity extends FragmentActivity implements TextToSpeech.OnIni
             // Put the spoken text in the EditText
 
             textInput = spokenText.get(0);
+            textInput=textInput.replaceAll("-","minus");
 
             String input=Regex.convert(textInput);
             if (input!=null) {

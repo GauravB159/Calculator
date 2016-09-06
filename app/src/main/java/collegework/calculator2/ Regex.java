@@ -1,6 +1,6 @@
-package bhaskarbarua.calc;
+package collegework.calculator2;
 
-public class Regex {
+class Regex {
 
     public static String convert(String text) {
         String convert=text;
