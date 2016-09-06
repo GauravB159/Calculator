@@ -360,6 +360,4 @@ public class BaseN extends AppCompatActivity {
             editText1.setText(result);
         }
     }
-    public void onClickC(View view){
-    }
 }
