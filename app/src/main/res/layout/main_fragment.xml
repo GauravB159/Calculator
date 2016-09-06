@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="collegework.calculator2.MainActivity">
+    tools:context="bhaskarbarua.calc.MainActivity">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -73,7 +73,7 @@
             android:id="@+id/multiply"
             android:padding="0dp"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
@@ -84,8 +84,9 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/power"
-            android:id="@+id/power"
+            android:text="@string/opp"
+            android:id="@+id/openP"
+            android:padding="0dp"
             android:layout_weight="1"
             android:textSize="40sp"
             android:layout_marginLeft="-6dp"
@@ -167,19 +168,21 @@
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:onClick="onClick0"/>
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/m"
-            android:id="@+id/memory"
+            android:text="@string/cpp"
+            android:id="@+id/closeP"
+            android:padding="0dp"
             android:layout_weight="1"
             android:textSize="40sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:onClick="onClick0"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -253,12 +256,11 @@
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:onClick="onClick0"/>
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/modulus"
-            android:id="@+id/modulus"
+            android:text="@string/power"
+            android:id="@+id/power"
             android:layout_weight="1"
             android:textSize="40sp"
             android:layout_marginLeft="-6dp"
@@ -267,6 +269,8 @@
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:onClick="onClick0"/>
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -280,6 +284,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="-8dp">
+
 
         <Button
             android:layout_width="wrap_content"
@@ -310,6 +315,7 @@
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:onClick="onClick0"/>
+
 
         <Button
             android:layout_width="wrap_content"
@@ -344,10 +350,10 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/mplus"
-            android:id="@+id/mplus"
+            android:text="@string/m"
+            android:id="@+id/memory"
             android:layout_weight="1"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
@@ -370,8 +376,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/opp"
-            android:id="@+id/openP"
+            android:text="@string/left"
+            android:id="@+id/left"
             android:padding="0dp"
             android:layout_weight="1"
             android:textSize="40sp"
@@ -381,31 +387,50 @@
             android:focusable="false"
             android:focusableInTouchMode="false" />
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/up"
+                android:id="@+id/up"
+                android:padding="0dp"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:layout_marginLeft="-6dp"
+                android:clickable="true"
+                android:enabled="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/down"
+                android:id="@+id/down"
+                android:padding="0dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_marginLeft="-6dp"
+                android:clickable="true"
+                android:enabled="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+
+        </LinearLayout>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/cpp"
-            android:id="@+id/closeP"
+            android:text="@string/right"
+            android:id="@+id/right"
             android:padding="0dp"
             android:layout_weight="1"
             android:textSize="40sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
-            android:focusable="false"
-            android:focusableInTouchMode="false" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/modeC"
-            android:id="@+id/mode"
-            android:padding="0dp"
-            android:layout_weight="1"
-            android:textSize="16sp"
-            android:layout_marginLeft="-6dp"
-            android:clickable="true"
-            android:enabled="false"
             android:focusable="false"
             android:focusableInTouchMode="false" />
 
@@ -439,4 +464,3 @@
             android:onClick="onClickReset"/>
     </LinearLayout>
 </RelativeLayout>
-
