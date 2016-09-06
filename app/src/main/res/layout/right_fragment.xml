@@ -427,4 +427,16 @@
             android:textAllCaps="false"/>
     </LinearLayout>
 
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="collegework.calculator2.InputAnsFragment"
+        android:id="@+id/fragment2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/row1"
+        android:layout_alignRight="@+id/row1"
+        android:layout_alignEnd="@+id/row1" />
+
 </RelativeLayout>
