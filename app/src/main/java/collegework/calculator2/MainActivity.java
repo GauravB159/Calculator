@@ -1,6 +1,7 @@
 package collegework.calculator2;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -16,9 +17,7 @@ import android.widget.EditText;
 public class MainActivity extends FragmentActivity {
 
     private static final int NUM_PAGES = 3;
-
     private ViewPager viewPager;
-
     /**
      * The pager adapter, which provides the pages to the view pager widget.
      */
@@ -80,7 +79,7 @@ public class MainActivity extends FragmentActivity {
     }
     public void onClick0(View view) {
         Button b=(Button)view;
-        editText1.setText(editText1.getText()+b.getText().toString());
+        editText1.setText(editText1.getText().toString()+b.getText().toString());
     }
     public void onClickEquals(View view) {
         double result=calculate(String.valueOf(editText1.getText()));
@@ -102,6 +101,11 @@ public class MainActivity extends FragmentActivity {
         //write code here
 
         return result;
+    }
+    void switchModeBasen(View view)
+    {
+        Intent intent=new Intent(this,BaseN.class);
+        startActivity(intent);
     }
 }
 
