@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="collegework.calculator2.MainActivity">
+    tools:context="bhaskarbarua.calc.MainActivity">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -84,8 +84,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/sub"
-            android:id="@+id/sub"
+            android:text="@string/opp"
+            android:id="@+id/openP"
             android:padding="0dp"
             android:layout_weight="1"
             android:textSize="40sp"
@@ -157,8 +157,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/opp"
-            android:id="@+id/opp"
+            android:text="@string/sub"
+            android:id="@+id/sub"
             android:padding="0dp"
             android:layout_weight="1"
             android:textSize="40sp"
@@ -350,15 +350,16 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/m"
-            android:id="@+id/memory"
+            android:text="speak"
+            android:id="@+id/textSpeech"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="15sp"
             android:layout_marginLeft="-6dp"
             android:clickable="true"
             android:enabled="true"
             android:focusable="false"
-            android:focusableInTouchMode="false" />
+            android:focusableInTouchMode="false"
+            android:onClick="acceptSpeechInput"/>
     </LinearLayout>
 
     <LinearLayout
@@ -463,5 +464,4 @@
             android:focusableInTouchMode="false"
             android:onClick="onClickReset"/>
     </LinearLayout>
-
 </RelativeLayout>
