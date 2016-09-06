@@ -16,9 +16,7 @@ import android.widget.EditText;
 public class MainActivity extends FragmentActivity {
 
     private static final int NUM_PAGES = 3;
-
     private ViewPager viewPager;
-
     /**
      * The pager adapter, which provides the pages to the view pager widget.
      */
@@ -80,7 +78,7 @@ public class MainActivity extends FragmentActivity {
     }
     public void onClick0(View view) {
         Button b=(Button)view;
-        editText1.setText(editText1.getText()+b.getText().toString());
+        editText1.setText(editText1.getText().toString()+b.getText().toString());
     }
     public void onClickEquals(View view) {
         double result=calculate(String.valueOf(editText1.getText()));

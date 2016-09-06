@@ -14,6 +14,8 @@ public class LeftFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup viewGroup, Bundle savedInstance)
     {
         ViewGroup rootView=(ViewGroup)inflater.inflate(R.layout.activity_left_fragment,viewGroup,false);
+        View view=getActivity().findViewById(R.id.input);
+        View view2=getActivity().findViewById(R.id.answer);
         return rootView;
     }
 }
