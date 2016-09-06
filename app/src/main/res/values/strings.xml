@@ -44,4 +44,15 @@
     <string name="ncr">nCr</string>
     <string name="definiteintegral">definiteIntegral</string>
     <string name="npr">nPr</string>
+    <string name="complex">Complex</string>
+    <string name="comp">Comp</string>
+    <string name="stat">Stat</string>
+    <string name="matrix">Matrix</string>
+    <string name="basen">Base-N</string>
+    <string name="eqn">Eqn</string>
+    <string name="plotter">Plotter</string>
+    <string name="table">Table</string>
+    <string name="diff">Differentiate</string>
+    <string name="integ">Integrate</string>
+
 </resources>

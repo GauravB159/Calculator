@@ -15,7 +15,7 @@ import android.widget.EditText;
 
 public class MainActivity extends FragmentActivity {
 
-    private static final int NUM_PAGES = 2;
+    private static final int NUM_PAGES = 3;
 
     private ViewPager viewPager;
 
@@ -34,6 +34,7 @@ public class MainActivity extends FragmentActivity {
         viewPager = (ViewPager) findViewById(R.id.pager);
         pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(pagerAdapter);
+        viewPager.setCurrentItem(1);
         editText1 = (EditText) findViewById(R.id.input);
         editText2 = (EditText) findViewById(R.id.answer);
     }
@@ -52,9 +53,8 @@ public class MainActivity extends FragmentActivity {
 
 
 
-
     /**
-     * A simple pager adapter that represents 5 ScreenSlidePageFragment objects, in
+     * A simple pager adapter that represents 3 ScreenSlidePageFragment objects, in
      * sequence.
      */
     private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
@@ -64,10 +64,12 @@ public class MainActivity extends FragmentActivity {
 
         @Override
         public Fragment getItem(int position) {
-            if (position == 0)
+            if (position == 1)
                 return new MainFragment();
-            else if (position == 1)
+            else if (position == 2)
                 return new RightFragment();
+            else if (position==0)
+                return new LeftFragment();
             else
                 return null;
         }
