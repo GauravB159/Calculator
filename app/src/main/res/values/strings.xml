@@ -75,6 +75,6 @@
     <string name="hex">hex</string>
     <string name="reset">Del</string>
     <string name="deci">Dec</string>
+    <string name="speech_input_phrase">Speak</string>
+    <string name="stt_not_supported_message">Not supported</string>
 </resources>
-
-
