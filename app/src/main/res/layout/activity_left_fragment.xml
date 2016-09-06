@@ -60,7 +60,8 @@
             android:text="@string/basen"
             android:id="@+id/basen"
             android:layout_weight="1"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:onClick="switchModeBasen" />
     </LinearLayout>
 
     <LinearLayout

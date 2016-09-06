@@ -63,6 +63,18 @@
     <string name="rand">Rand#</string>
     <string name="var">x</string>
     <string name="pow10">x10X</string>
+    <string name="_A">A</string>
+    <string name="_B">B</string>
+    <string name="_C">C</string>
+    <string name="_D">D</string>
+    <string name="_E">E</string>
+    <string name="_F">F</string>
+    <string name="bin">bin</string>
+    <string name="oct">oct</string>
+    <string name="dec">dec</string>
+    <string name="hex">hex</string>
+    <string name="reset">Del</string>
+    <string name="deci">Dec</string>
 </resources>
 
 

@@ -1,6 +1,7 @@
 package collegework.calculator2;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -100,6 +101,11 @@ public class MainActivity extends FragmentActivity {
         //write code here
 
         return result;
+    }
+    void switchModeBasen(View view)
+    {
+        Intent intent=new Intent(this,BaseN.class);
+        startActivity(intent);
     }
 }
 
