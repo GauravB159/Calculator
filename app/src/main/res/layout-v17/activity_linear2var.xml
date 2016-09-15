@@ -199,7 +199,6 @@
             android:inputType="none"
             android:textSize="23dp"
             android:textAlignment="center"
-            android:onClick="loseKeyboard"
             android:editable="false"
             android:clickable="true"
             android:contextClickable="true"
