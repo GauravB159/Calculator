@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BaseN"></activity>
+        <activity android:name=".BaseN" />
+        <activity android:name=".Equations" />
+        <activity android:name=".linear2var" />
+        <activity android:name=".linearvar3" />
+        <activity android:name=".linearvar4"></activity>
     </application>
 
 </manifest>

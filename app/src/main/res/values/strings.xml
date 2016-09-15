@@ -77,4 +77,13 @@
     <string name="deci">Dec</string>
     <string name="speech_input_phrase">Speak</string>
     <string name="stt_not_supported_message">Not supported</string>
+    <string name="linear_2_variables">Linear 2 variables</string>
+    <string name="linear_3_variables">linear 3 variables</string>
+    <string name="linear_4_variables">linear 4 variables</string>
+    <string name="quadratic">quadratic</string>
+    <string name="cubic">cubic</string>
+    <string name="quartic">quartic</string>
+    <string name="clear">Clear</string>
+    <string name="dot">.</string>
+    <string name="input1">Input: </string>
 </resources>

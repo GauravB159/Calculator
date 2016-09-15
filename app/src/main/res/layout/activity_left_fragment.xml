@@ -79,7 +79,8 @@
             android:text="@string/eqn"
             android:id="@+id/eqn"
             android:layout_weight="1"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:onClick="eqnswitch" />
 
         <Button
             android:layout_width="match_parent"

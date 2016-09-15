@@ -42,14 +42,15 @@ public class BaseN extends AppCompatActivity {
 
             public boolean onLongClick(View v) {
                 editText1.setText("");
+                answer.setText("");
                 return true;
             }
         });
     }
     public void setBin(View view)
     {
-        type.setText("BIN");
         if(TextUtils.isEmpty(editText1.getText())) {
+            type.setText("BIN");
             O.setEnabled(true);
             P.setEnabled(true);
             A.setEnabled(false);
@@ -93,8 +94,8 @@ public class BaseN extends AppCompatActivity {
     }
     public void setOct(View view)
     {
-        type.setText("OCT");
         if(TextUtils.isEmpty(editText1.getText())) {
+            type.setText("OCT");
             O.setEnabled(true);
             P.setEnabled(true);
             A.setEnabled(true);
@@ -137,8 +138,8 @@ public class BaseN extends AppCompatActivity {
     }
     public void setDec(View view)
     {
-        type.setText("DEC");
         if(TextUtils.isEmpty(editText1.getText())) {
+            type.setText("DEC");
             O.setEnabled(true);
             P.setEnabled(true);
             A.setEnabled(true);
@@ -181,8 +182,8 @@ public class BaseN extends AppCompatActivity {
     }
     public void setHex(View view)
     {
-        type.setText("HEX");
         if(TextUtils.isEmpty(editText1.getText())) {
+        type.setText("Hex");
         O.setEnabled(true);
         P.setEnabled(true);
         A.setEnabled(true);
@@ -357,6 +358,9 @@ public class BaseN extends AppCompatActivity {
         if(str.length()!=0) {
             String result = str.substring(0, str.length() - 1);
             editText1.setText(result);
+            if(result.length()==0) {
+                answer.setText("");
+            }
         }
     }
 }

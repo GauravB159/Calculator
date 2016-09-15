@@ -124,9 +124,11 @@ public class MainActivity extends FragmentActivity implements TextToSpeech.OnIni
     public void switchModeBasen(View view) {
         Intent intent=new Intent(this,BaseN.class);
         startActivity(intent);
-
     }
-
+    public void eqnswitch(View view){
+        Intent intent=new Intent(this,Equations.class);
+        startActivity(intent);
+    }
 
 
 
