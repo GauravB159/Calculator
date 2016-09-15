@@ -120,7 +120,6 @@ public class MainActivity extends FragmentActivity implements TextToSpeech.OnIni
 
         return result;
     }
-
     public void switchModeBasen(View view) {
         Intent intent=new Intent(this,BaseN.class);
         startActivity(intent);

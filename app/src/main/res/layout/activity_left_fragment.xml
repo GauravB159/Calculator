@@ -132,7 +132,7 @@
             android:text="@string/diff"
             android:id="@+id/diff"
             android:layout_weight="1"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <Button
             android:layout_width="match_parent"

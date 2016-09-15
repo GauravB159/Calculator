@@ -12,17 +12,17 @@ public class Equations extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_equations);
     }
-    void switchLinear2(View view)
+    public void switchLinear(View view)
     {
         Intent intent=new Intent(this,linear2var.class);
         startActivity(intent);
     }
-    void switchLinear3(View view)
+    public void switchLinear3(View view)
     {
         Intent intent=new Intent(this,linearvar3.class);
         startActivity(intent);
     }
-    void switchLinear4(View view)
+    public void switchLinear4(View view)
     {
         Intent intent=new Intent(this,linearvar4.class);
         startActivity(intent);
