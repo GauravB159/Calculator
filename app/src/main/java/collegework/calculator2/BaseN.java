@@ -253,28 +253,27 @@ public class BaseN extends AppCompatActivity {
         answer=decimalToHex(answer);
         return answer;
     }
+    static public String octalToDecimal(String input)
+    {
+        int answer=0;
+        for(int i=0;i<input.length();i++) {
+            char bit=input.charAt(i);
+            answer=answer+((int)bit-48)*(int)pow(8.0,input.length()-i-1);
+        }
+        return Integer.toString(answer);
+    }
     static public String octalToHex(String input)
     {
         String answer="";
-        answer=octalToBinary(input);
-        answer=binaryToHex(answer);
-        return answer;
-    }
-    static public String octalToDecimal(String input)
-    {
-        String answer="";
-        answer=octalToBinary(input);
-        answer=binaryToDecimal(answer);
+        answer=octalToDecimal(input);
+        answer=decimalToHex(answer);
         return answer;
     }
     static public String octalToBinary(String input)
     {
         String answer="";
-        for(int i=0;i<input.length();i++) {
-            char bit=input.charAt(i);
-            String bitt=Character.toString(bit);
-            answer = answer+decimalToBin(bitt);
-        }
+        answer=octalToDecimal(input);
+        answer=decimalToBin(answer);
         return answer;
     }
     static public String decimalToOctal(String input)
