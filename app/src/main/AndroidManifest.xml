@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BaseN" />
+	<activity android:name=".Plotter"/>
         <activity android:name=".Equations" />
         <activity android:name=".linear2var" />
         <activity android:name=".linearvar3" />

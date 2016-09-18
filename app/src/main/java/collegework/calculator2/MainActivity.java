@@ -100,26 +100,24 @@ public class MainActivity extends FragmentActivity implements TextToSpeech.OnIni
         editText1.setText(editText1.getText().toString()+b.getText().toString());
     }
     public void onClickEquals(View view) {
-        result=calculate(String.valueOf(editText1.getText()));
+        result= Parser.evaluate(String.valueOf(editText1.getText()));
         editText2.setText(String.valueOf(result));
     }
     public void onClickReset(View view){
         editText1.setText("");
+        editText2.setText("");
     }
     public void onClickDel(View view){
         String str= editText1.getText().toString();
         if(str.length()!=0) {
             String result = str.substring(0, str.length() - 1);
             editText1.setText(result);
+            if (editText1.getText().toString().length()==0){
+                editText2.setText("");
+            }
         }
     }
-    double calculate(String input) {
-        double result=0;
-
-        //write code here
-
-        return result;
-    }
+ 
     public void switchModeBasen(View view) {
         Intent intent=new Intent(this,BaseN.class);
         startActivity(intent);
@@ -127,6 +125,11 @@ public class MainActivity extends FragmentActivity implements TextToSpeech.OnIni
     public void eqnswitch(View view){
         Intent intent=new Intent(this,Equations.class);
         startActivity(intent);
+    }
+    public void switchModeFunctionPlotter(View v) {
+        Intent intent=new Intent(this,Plotter.class);
+        startActivity(intent);
+
     }
 
 
