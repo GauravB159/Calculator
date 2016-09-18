@@ -240,7 +240,7 @@
             android:enabled="true"
             android:focusable="false"
             android:focusableInTouchMode="false"
-            android:onClick="onClick0"/>
+            android:onClick="onClick0" />
 
         <Button
             android:layout_width="wrap_content"
@@ -405,7 +405,9 @@
                 android:clickable="true"
                 android:enabled="true"
                 android:focusable="false"
-                android:focusableInTouchMode="false" />
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="-5dp" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -418,7 +420,10 @@
                 android:clickable="true"
                 android:enabled="true"
                 android:focusable="false"
-                android:focusableInTouchMode="false" />
+                android:focusableInTouchMode="false"
+                android:textStyle="bold"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="-5dp" />
 
         </LinearLayout>
         <Button
